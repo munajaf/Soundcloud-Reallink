@@ -14,8 +14,6 @@
    ">
 </form>
 <?php
-"http://soundcloud.com/oembed?url=https://soundcloud.com/monstercat/savage-preview&format=json";
-"http://api.soundcloud.com/tracks/129560985/streams?client_id=6964960b77da97eb01b0c0e4f8b88547&format=json";
 if(!empty($_POST['tracks'])){
   
   if(strpos($_POST['tracks'], "/sets/")){ echo "Sorry i cant handdle playlist,YET!"; }
